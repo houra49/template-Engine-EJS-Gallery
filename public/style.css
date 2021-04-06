@@ -1,0 +1,27 @@
+body{
+    margin:0%;
+}
+#nav{
+    display:flex;
+    justify-content: space-around;
+    margin:0;
+    background-color: rgba(0,0,0,0.2);
+}
+#nav li,a{
+list-style: none;
+text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top:25%;
+}
+img{
+    width:30vw;
+}
+#grid{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    row-gap: 15px;
+    margin-left: 3%;
+}
